@@ -61,7 +61,7 @@ function play(p,c){
 
 }
 function game(){
-let n = parseInt(prompt("number of rounds you want to play?"));
+let n = parseInt(prompt("Number of rounds you want to play?"));
 for(let i =0; i<n;i++)
     play(playerSelection(),computerPlay());
 
